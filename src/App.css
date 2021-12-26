@@ -1,10 +1,12 @@
 :root {
-  --mainBlue:#2a2a72;
+  --mainBlue: #2980b9;
   --lightBlue:#009ffd;
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow:#ffa400;
 }
+
+/* old color that was use #2a2a72; */
 
 body {
   font-family: 'Oswald', sans-serif !important;
