@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spline+Sans&display=swap');
+
 :root {
   --mainBlue: #2980b9;
   --lightBlue:#009ffd;
@@ -9,7 +11,8 @@
 /* old color that was use #2a2a72; */
 
 body {
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Spline Sans', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
