@@ -1,13 +1,15 @@
 import React from 'react'
-import main from "./main.jpg"
+import pic from "./pic.jpg"
+// import styled from 'styled-components';
 // img: "img/product-1.png",
 
-const Header = () => {
+export default function Header() {
   return (
     <React.Fragment>
-   <img className='main-pic' src={main} alt="Logo" />;
+   <img className='main-pic' src={pic} alt="Logo" />;
     </React.Fragment>
   )
 }
 
-export default Header
+
+
