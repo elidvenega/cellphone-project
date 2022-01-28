@@ -3,7 +3,7 @@ import {Switch,Route} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar';
-import Header from './components/Header';
+// import Header from './components/Header';
 import ProductList from './components/ProductList';
 import Details from './components/Details';
 import Cart from './components/Cart';
@@ -15,7 +15,6 @@ class App extends Component {
     return (
      <React.Fragment>
      <NavBar />
-     <Header />
      <Switch>
        <Route exact path="/" component={ProductList} />
        <Route path="/details" component={Details} />
